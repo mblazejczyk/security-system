@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://securitysystem.blazejczyk.net/accounts.html</loc>
+    </url>
+    <url>
+        <loc>https://securitysystem.blazejczyk.net/index.html</loc>
+    </url>
+    <url>
+        <loc>https://securitysystem.blazejczyk.net/logbook.html</loc>
+    </url>
+    <url>
+        <loc>https://securitysystem.blazejczyk.net/logout.html</loc>
+    </url>
+    <url>
+        <loc>https://securitysystem.blazejczyk.net/notifications.html</loc>
+    </url>
+    <url>
+        <loc>https://securitysystem.blazejczyk.net/receptions.html</loc>
+    </url>
+    <url>
+        <loc>https://securitysystem.blazejczyk.net/schedule.html</loc>
+    </url>
+</urlset>
