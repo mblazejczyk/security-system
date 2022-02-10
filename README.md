@@ -5,6 +5,10 @@ A great system for security companies to help them manage receptions, people all
 
 This tool is in MIT license but I am just a student and I may not have best security practices in use here. Use at your own risk.
 
+## Preview
+Languages:
+* [English](https://securitysystem.blazejczyk.net/)
+
 ## Install
 
 Just upload `htdocs` on your server and import .sql from `database/` to your phpmyadmin
