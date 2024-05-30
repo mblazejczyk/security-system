@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SecuritySystem</title>
+    <meta name="description" content="Simple system for Security Company">
+    <meta property="og:image" content="">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/img/securitySystemIcon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/img/securitySystemIcon.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+
+    <script>
+        function change(){
+            if(document.getElementById("chec").checked){
+                document.getElementById("sub").disabled = false;
+                
+            }else{
+                document.getElementById("sub").disabled = true;
+                
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <section class="login-dark" style="height: 762px;">
+        <form action="notifications.html" style="height: 452.2px;">
+            <h2 class="visually-hidden">Login Form</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div class="mb-3">Login as:<br>
+            <select class="form-select form-control" name="filterPlace" style="width: 50%;color: rgb(132,132,132);width:100%;">
+                    <option value="admin">Admin *demo</option>
+                </select>
+            </div>
+            <div class="form-check"><input name="seeLog" class="form-check-input" type="checkbox" id="chec" onchange="change()"><label class="form-check-label" for="chec">I accept <a href="https://gubru.blazejczyk.net/CookiePolicy.pdf">cookie policy</a> and <a href="https://yellowsink.pl/privacypolicy.html">privacy policy</a></label></div>
+            <div class="mb-3"><button class="btn btn-primary d-block w-100" name="loginForm" type="submit" id="sub" disabled="true">Log In</button></div>
+        </form>
+    </section>
+    <footer class="page-footer" style="background: linear-gradient(#192734, #1e2244);color: rgb(255,255,255);">
+        <div class="container">
+            <div class="links"><a href="https://blazejczyk.net/" style="color: rgb(255,255,255);">My portfolio</a></div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
