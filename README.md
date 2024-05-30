@@ -7,7 +7,7 @@ This tool is in MIT license but I am just a student and I may not have best secu
 
 ## Preview
 Languages:
-* [English](https://securitysystem.blazejczyk.net/)
+* [English](https://mblazejczyk.github.io/security-system/)
 
 ## Install
 
